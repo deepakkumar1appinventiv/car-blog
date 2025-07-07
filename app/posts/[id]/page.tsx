@@ -9,9 +9,7 @@ import { getCarImageUrl, getCarCategory, getReadTime } from '@/lib/utils';
 import { CarSpecs as CarSpecsType } from '@/types';
 
 interface PostPageProps {
-  params: Promise<{
-    id: string;
-  }>;
+  params: Promise<{ id: string }>;
 }
 
 export async function generateStaticParams() {
