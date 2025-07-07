@@ -97,7 +97,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
     <div className="min-h-screen bg-slate-950 py-16">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <Link href="/">
-          <Button variant="ghost" className="mb-8 text-black  hover:text-white hover:bg-slate-800">
+          <Button variant="ghost" className="mb-8 text-black hover:text-white hover:bg-slate-800">
             <ArrowLeft className="w-4 h-4 mr-2" />
             Back to Home
           </Button>
